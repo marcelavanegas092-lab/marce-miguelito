@@ -1,70 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marcela & Miguel | 30.12.2026</title>
-<meta name="description" content="Invitación de boda de Marcela y Miguel — 30 de diciembre de 2026">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div id="cover" class="cover">
-  <div class="leaf leaf-a">❧</div><div class="leaf leaf-b">❧</div>
-  <div class="cover-card">
-    <p class="eyebrow">THE WEDDING OF</p>
-    <h1>Marcela <span>&</span> Miguel</h1>
-    <div class="line"></div><p class="date">30 · 12 · 2026</p>
-    <button id="openInvite" class="btn primary">ABRIR INVITACIÓN · OPEN INVITATION</button>
-    <p class="tiny">Con cariño, para ti ♡</p>
-  </div>
-</div>
-
-<main id="invite" class="hidden">
-<nav class="topbar"><div class="monogram">M <span>&</span> M</div><div><button class="lang active" data-lang="es">ES</button><button class="lang" data-lang="en">EN</button></div></nav>
-
-<header class="hero section">
-  <div class="hero-content reveal">
-    <p class="eyebrow" data-es="NOS CASAMOS" data-en="WE'RE GETTING MARRIED">NOS CASAMOS</p>
-    <h2>Marcela <em>&</em> Miguel</h2>
-    <p class="hero-date">30 · DICIEMBRE · 2026</p>
-    <p class="quote" data-es="El comienzo de nuestro para siempre." data-en="The beginning of our forever.">El comienzo de nuestro para siempre.</p>
-    <a href="#details" class="down">⌄</a>
-  </div>
-</header>
-
-<section class="section intro reveal">
-  <p class="eyebrow" data-es="CON MUCHA ALEGRÍA" data-en="WITH GREAT JOY">CON MUCHA ALEGRÍA</p>
-  <h3 data-es="Queremos celebrar este día contigo" data-en="We would love to celebrate this day with you">Queremos celebrar este día contigo</h3>
-  <p data-es="Estamos preparando cada detalle con mucho amor. Aquí encontrarás toda la información para acompañarnos en este día tan especial." data-en="We are preparing every detail with love. Here you will find everything you need to join us on this very special day.">Estamos preparando cada detalle con mucho amor. Aquí encontrarás toda la información para acompañarnos en este día tan especial.</p>
-</section>
-
-<section class="countdown-wrap reveal">
-  <p class="eyebrow" data-es="FALTAN" data-en="COUNTING DOWN">FALTAN</p>
-  <div id="countdown" class="countdown"><div><b id="days">0</b><span data-es="Días" data-en="Days">Días</span></div><div><b id="hours">0</b><span data-es="Horas" data-en="Hours">Horas</span></div><div><b id="minutes">0</b><span data-es="Min" data-en="Min">Min</span></div><div><b id="seconds">0</b><span data-es="Seg" data-en="Sec">Seg</span></div></div>
-</section>
-
-<section id="details" class="section details reveal">
-  <p class="eyebrow" data-es="EL GRAN DÍA" data-en="THE BIG DAY">EL GRAN DÍA</p><h3 data-es="Ceremonia" data-en="Ceremony">Ceremonia</h3>
-  <div class="detail-card"><div class="icon">✦</div><p class="big">3:00 PM</p><p>50 Oaks Ave<br>Dee Why NSW 2099</p><a class="btn outline" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=50%20Oaks%20Ave%20Dee%20Why%20NSW%202099" data-es="VER UBICACIÓN" data-en="VIEW LOCATION">VER UBICACIÓN</a></div>
-  <div class="detail-card muted"><div class="icon">♡</div><h4 data-es="Recepción" data-en="Reception">Recepción</h4><p data-es="Muy pronto compartiremos el lugar y la hora de nuestra celebración." data-en="We will share the reception venue and time very soon.">Muy pronto compartiremos el lugar y la hora de nuestra celebración.</p></div>
-</section>
-
-<section class="section dress reveal">
- <p class="eyebrow" data-es="CÓDIGO DE VESTIMENTA" data-en="DRESS CODE">CÓDIGO DE VESTIMENTA</p><h3 data-es="Tropical & elegante" data-en="Tropical & elegant">Tropical & elegante</h3>
- <div class="dress-icons"><div>♙<strong data-es="Ellos" data-en="Gentlemen">Ellos</strong><span data-es="Guayabera" data-en="Guayabera">Guayabera</span></div><div>❀<strong data-es="Ellas" data-en="Ladies">Ellas</strong><span data-es="Vestido floral / tropical" data-en="Floral / tropical dress">Vestido floral / tropical</span></div></div>
- <p class="soft" data-es="Colores frescos, estampados florales y ese toque tropical que hará nuestro día aún más especial." data-en="Fresh colours, floral prints and a tropical touch to make our day even more special.">Colores frescos, estampados florales y ese toque tropical que hará nuestro día aún más especial.</p>
-</section>
-
-<section class="section story reveal"><p class="eyebrow" data-es="NUESTRA HISTORIA" data-en="OUR STORY">NUESTRA HISTORIA</p><h3 data-es="Una historia que continúa…" data-en="A story still being written…">Una historia que continúa…</h3><p data-es="Pronto compartiremos aquí algunos de nuestros momentos favoritos juntos." data-en="We will soon share some of our favourite moments together here.">Pronto compartiremos aquí algunos de nuestros momentos favoritos juntos.</p></section>
-
-<section class="section gifts reveal"><p class="eyebrow" data-es="REGALOS" data-en="GIFTS">REGALOS</p><div class="gift-icon">✉</div><h3 data-es="Lluvia de sobres" data-en="Wishing well">Lluvia de sobres</h3><p data-es="Tu presencia es nuestro mejor regalo. Si deseas tener un detalle con nosotros, tendremos una lluvia de sobres disponible el día de la boda." data-en="Your presence is the greatest gift. If you would like to give us something extra, a wishing well will be available on our wedding day.">Tu presencia es nuestro mejor regalo. Si deseas tener un detalle con nosotros, tendremos una lluvia de sobres disponible el día de la boda.</p></section>
-
-<section class="section rsvp reveal"><p class="eyebrow">RSVP</p><h3 data-es="¿Nos acompañas?" data-en="Will you join us?">¿Nos acompañas?</h3><p data-es="Nos encantará celebrar contigo. La fecha límite para confirmar asistencia será anunciada próximamente." data-en="We would love to celebrate with you. The RSVP deadline will be announced soon.">Nos encantará celebrar contigo. La fecha límite para confirmar asistencia será anunciada próximamente.</p>
-<form id="rsvpForm"><label><span data-es="Nombre completo" data-en="Full name">Nombre completo</span><input required name="name" type="text"></label><label><span data-es="¿Asistirás?" data-en="Will you attend?">¿Asistirás?</span><select required name="attendance"><option value="" data-es="Selecciona…" data-en="Select…">Selecciona…</option><option data-es="Sí, con mucho gusto" data-en="Yes, happily!">Sí, con mucho gusto</option><option data-es="No podré asistir" data-en="Unable to attend">No podré asistir</option></select></label><label><span data-es="Número de invitados" data-en="Number of guests">Número de invitados</span><input name="guests" min="1" max="10" type="number" value="1"></label><label><span data-es="Mensaje para los novios" data-en="Message for the couple">Mensaje para los novios</span><textarea name="message" rows="4"></textarea></label><button class="btn primary" type="submit" data-es="ENVIAR CONFIRMACIÓN" data-en="SEND RSVP">ENVIAR CONFIRMACIÓN</button><p id="formNote" class="form-note" data-es="Modo demostración: conectaremos este formulario cuando definamos dónde guardar las respuestas." data-en="Demo mode: we will connect this form once we choose where to save responses.">Modo demostración: conectaremos este formulario cuando definamos dónde guardar las respuestas.</p></form></section>
-
-<footer><div class="monogram large">M <span>&</span> M</div><p>30 · 12 · 2026</p><p data-es="Con amor, Marcela & Miguel" data-en="With love, Marcela & Miguel">Con amor, Marcela & Miguel</p></footer>
-</main>
-<button id="musicBtn" class="music hidden" aria-label="Music">♫</button>
-<script src="script.js"></script>
-</body></html>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Marce & Miguelito · 30.12.2026</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<div id="intro" class="intro"><div class="envelope"><div class="leaf">❧</div><p class="eyebrow">THE WEDDING OF</p><h1>Marce <span>&</span> Miguelito</h1><p>30 · 12 · 2026</p><button id="open">ABRIR INVITACIÓN · OPEN INVITATION</button></div></div>
+<main id="site" class="hidden">
+<section class="hero"><img src="assets/hero.jpeg" alt="Marce y Miguelito"><div class="shade"></div><div class="heroText"><p>NOS CASAMOS · WE'RE GETTING MARRIED</p><h1>Marce <i>&</i> Miguelito</h1><p class="date">30 · DICIEMBRE · 2026</p><div class="langs"><button data-lang="es">ES</button><button data-lang="en">EN</button></div></div></section>
+<section class="paper reveal"><p class="script">Con mucha alegría</p><h2 data-es="Queremos celebrar contigo" data-en="We would love to celebrate with you">Queremos celebrar contigo</h2><p data-es="Nuestro próximo capítulo comienza y sería muy especial compartir este día con las personas que forman parte de nuestra historia." data-en="Our next chapter is beginning, and it would mean so much to share this day with the people who are part of our story.">Nuestro próximo capítulo comienza y sería muy especial compartir este día con las personas que forman parte de nuestra historia.</p><div id="countdown" class="countdown"></div></section>
+<section class="photoBand reveal"><img src="assets/proposal.jpeg" alt="Nuestro compromiso"><div><p class="eyebrow">OUR YES</p><h2 data-es="El comienzo de nuestro para siempre" data-en="The beginning of our forever">El comienzo de nuestro para siempre</h2><p data-es="Una historia construida entre aventuras, familia, viajes, risas y muchos momentos que queremos seguir celebrando juntos." data-en="A story built through adventures, family, travel, laughter and many moments we hope to keep celebrating together.">Una historia construida entre aventuras, familia, viajes, risas y muchos momentos que queremos seguir celebrando juntos.</p></div></section>
+<section class="paper reveal"><p class="script">Save the date</p><h2>30.12.2026</h2><div class="details"><article><span>✦</span><h3 data-es="Ceremonia" data-en="Ceremony">Ceremonia</h3><strong>3:00 PM</strong><p>50 Oaks Ave<br>Dee Why NSW 2099</p><a href="https://www.google.com/maps/search/?api=1&query=50+Oaks+Ave+Dee+Why+NSW+2099" target="_blank" data-es="VER MAPA" data-en="VIEW MAP">VER MAPA</a></article><article><span>✦</span><h3 data-es="Recepción" data-en="Reception">Recepción</h3><strong data-es="Próximamente" data-en="Coming soon">Próximamente</strong><p data-es="Compartiremos los detalles muy pronto." data-en="We'll share the details very soon.">Compartiremos los detalles muy pronto.</p></article></div></section>
+<section class="dress reveal"><div><p class="eyebrow">DRESS CODE</p><h2 data-es="Tropical & Elegante" data-en="Tropical & Elegant">Tropical & Elegante</h2><p data-es="Caballeros: guayabera. Damas: vestido floral o tropical. Queremos una celebración fresca, alegre y llena de color." data-en="Gentlemen: guayabera. Ladies: floral or tropical dress. Think fresh, joyful and full of colour.">Caballeros: guayabera. Damas: vestido floral o tropical. Queremos una celebración fresca, alegre y llena de color.</p></div><img src="assets/colombia.jpeg" alt="Inspiración tropical"></section>
+<section class="gallery reveal"><img src="assets/beach.jpeg"><img src="assets/tasmania.jpeg"><img src="assets/cafe.jpeg"><img src="assets/aquarium.jpeg"></section>
+<section class="gift paper reveal"><p class="script">Tu presencia es nuestro mejor regalo</p><h2 data-es="Lluvia de sobres" data-en="Wishing well">Lluvia de sobres</h2><p data-es="Lo más importante para nosotros es celebrar este día contigo. Si deseas hacernos un obsequio, tendremos una lluvia de sobres disponible el día de nuestra boda." data-en="The most important gift is celebrating this day with you. If you would like to give us something, a wishing well will be available on our wedding day.">Lo más importante para nosotros es celebrar este día contigo. Si deseas hacernos un obsequio, tendremos una lluvia de sobres disponible el día de nuestra boda.</p></section>
+<section class="rsvp reveal"><img src="assets/engagement.jpeg" alt="Marce y Miguelito"><div><p class="eyebrow">RSVP</p><h2 data-es="¿Nos acompañas?" data-en="Will you join us?">¿Nos acompañas?</h2><p data-es="La fecha límite de confirmación estará disponible próximamente." data-en="The RSVP deadline will be announced soon.">La fecha límite de confirmación estará disponible próximamente.</p><form id="rsvp"><input required placeholder="Nombre / Name"><select required><option value="">¿Asistirás? / Will you attend?</option><option>Sí / Yes</option><option>No</option></select><input type="number" min="1" max="6" placeholder="Número de invitados / Guests"><textarea placeholder="Mensaje / Message"></textarea><button type="submit">CONFIRMAR · RSVP</button></form><small id="formMsg"></small></div></section>
+<footer><p>Marce <i>&</i> Miguelito</p><span>30 · 12 · 2026 · NSW, Australia</span></footer>
+</main><script src="script.js"></script></body></html>
